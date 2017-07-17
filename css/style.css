@@ -1,0 +1,71 @@
+
+#header {
+ padding: 20px;
+}
+.wrapper {
+  background: url("https://i.ytimg.com/vi/_FhqtnKJiYU/maxresdefault.jpg");
+  border-radius: 5px;
+  width: 50%;
+  padding: 50px;
+  margin: auto;
+}
+
+
+.streamer-logo {
+	width: 70px;
+	height: 70px;
+	border-radius: 100%;
+}
+
+.streamer {
+	list-style: none;
+	margin: 20px auto;
+	border-bottom: 1px solid #ccc;
+	padding: 10px;
+	transition: all ease-in-out .2s;
+}
+
+.streamer:hover {
+	background-color: rgba(100, 65, 165, 0.5);
+	transform: scale(1.1);
+	border-radius: 5px;
+}
+
+.streamer-name {
+	display: inline-block;
+	margin: 0 10px;
+	font-family: 'Bubbler One', sans-serif;
+	font-size: 1.5em;
+	color: #fff;
+}
+
+.green, .red {
+	width: 50px;
+	height: 50px;
+	position: relative;
+	float: right;
+	top: 15px;
+}
+.streamer-info{
+	font-family: 'Bubbler One', sans-serif;
+	text-decoration: none;
+	color: #fff;
+	font-size: .6em;
+	margin-left: 10px;
+}
+
+.selected {
+  background-color: #111;
+  color: #fff;
+}
+
+.btn {
+  font-family: 'Audiowide', cursive;
+  font-weight: bold;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #111;
+  color: #fff;
+}
